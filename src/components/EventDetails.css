@@ -1,0 +1,115 @@
+.event-details-container {
+
+  padding: 12px 25px;
+  background-color: #0ec8b5;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  max-width: 500px;
+  margin: auto;
+  flex-direction: column;
+
+  padding: 30px;
+
+}
+
+.event-details-container form {
+
+  .edit-event-container {
+    background: linear-gradient(135deg, #B2DFDB 0%, #E0F7FA 100%);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 600px;
+    margin: 30px auto;
+    transition: box-shadow 0.3s ease;
+  }
+
+  .edit-event-container:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .edit-event-container h2 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 25px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .event-details-container h2 {
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+  .edit-event-container form {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+  }
+
+  .edit-event-container form input,
+  .edit-event-container form select,
+  .edit-event-container form textarea {
+    padding: 12px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .edit-event-container form input:focus,
+  .edit-event-container form select:focus,
+  .edit-event-container form textarea:focus {
+    border-color: #17a2b8;
+    box-shadow: 0 0 8px rgba(23, 162, 184, 0.2);
+    outline: none;
+  }
+
+
+
+  .edit-event-container form button:hover {
+
+    transform: translateY(-2px);
+  }
+
+  .edit-event-container form button:active {
+    background-color: #1e7e34;
+    transform: translateY(0);
+  }
+
+}
+
+.event-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.event-date,
+.event-category {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.back-link:hover {
+  background-color: #0056b3;
+}
